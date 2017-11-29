@@ -1,0 +1,24 @@
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	min-width: 320px;
+	margin: 0 auto;
+}
+
+header div {
+	margin: 10px;
+}
+
+header{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.header-r, .header-l{
+	display: flex;
+	flex-direction: row;
+}
