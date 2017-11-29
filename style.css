@@ -8,7 +8,7 @@ body{
 	margin: 0 auto;
 }
 
-header div {
+header div{
 	margin: 10px;
 }
 
@@ -22,3 +22,45 @@ header{
 	display: flex;
 	flex-direction: row;
 }
+
+.menu img{
+	margin-top: -12px;
+}
+
+.bag a, .login a, .signup a{
+	text-decoration: none;
+	font-size: 13px;
+	font-family: 'PT Sans';
+	color: rgb(51, 55, 67);
+	font-weight: bold;
+}
+
+.bag a{
+	/*line-height: 1.923;*/
+	text-align: center;
+}
+
+.login a{
+	/*line-height: 1.538;*/
+	text-align: left;
+}
+
+.signup a{
+	color: rgba(51, 55, 67, 0.702);
+	text-align: left;
+}
+
+.line{
+	color: #000000;
+}
+
+.number{
+	color: rgb(255, 255, 255);
+	font-family: "Georgia";
+	font-size: 11px;
+	padding: 0px 5px 0px 5px;
+	background-color: #333743;
+	border-radius: 50%;
+	height: 16px;
+	margin-top: 11px; 
+
