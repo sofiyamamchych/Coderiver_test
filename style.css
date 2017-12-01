@@ -84,7 +84,7 @@ header{
 .grid-container > div {
 	background-color: rgba(255, 255, 255);
 	text-align: center;
-	padding: 10px 10px;
+	/*padding: 10px 10px;*/
 	font-size: 20px;
 }
 
@@ -140,6 +140,10 @@ width: 40%;
 	font-size: 22px;
 	font-family: "Georgia";
 	color: rgb(48, 48, 50);
+}
+
+.item5 {
+	padding: 36px;
 }
 
 .item5 h4{
