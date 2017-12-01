@@ -64,3 +64,32 @@ header{
 	height: 16px;
 	margin-top: 11px; 
 
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-gap: 4px;
+	background-color: #2196F3;
+	padding: 4px;
+	grid-template-rows: 300px 80px 200px;
+	justify-content: center;
+	grid-template-areas:
+		'bigbag bigbag'
+		'bag1 bag2'
+		'texts texts';
+	}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 10px 10px;
+  font-size: 20px;
+}
+
+.item1 { grid-area: bigbag; }
+.item2 { grid-area: bag1; }
+.item3 { grid-area: bag2; }
+.item4 { grid-area: texts; }
+
+
