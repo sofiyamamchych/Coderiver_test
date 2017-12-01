@@ -72,7 +72,7 @@ header{
 	grid-gap: 4px;
 	background-color: #2196F3;
 	padding: 4px;
-	grid-template-rows: 300px 80px 200px;
+	grid-template-rows: 100% 100% 200px;
 	justify-content: center;
 	grid-template-areas:
 		'bigbag bigbag'
@@ -93,3 +93,18 @@ header{
 .item4 { grid-area: texts; }
 
 
+.item1 img {
+width: 100%;
+}
+
+.item2 img, .item3 img {
+width: 40%;
+}
+	
+.item2 img{
+ 	float: right;
+ }
+
+.item3 img{
+ 	float: left;
+ }
