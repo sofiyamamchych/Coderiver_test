@@ -219,6 +219,19 @@ width: 40%;
 	display: inline-block;
 	margin: 0 11px 0 11px; 
 }
- .sq2{
+
+.sq2{
  	background-color: #333743;
- }
+}
+
+.buy a{
+	display: block;
+	text-decoration: none;
+	font-size: 13px;
+	font-family: "Georgia";
+	color: rgb(255, 255, 255);
+	line-height: 1.923;
+	text-align: center;
+	background-color: #afa394;
+	padding: 12px 0 5px 0;
+}
