@@ -256,4 +256,24 @@ width: 40%;
  
 }
 
+.grid-container2 {
+	display: grid;
+	grid-template-columns: 20% 20% 20% 20% 20%;
+	grid-gap: 1px;
+	/*background-color: black;*/
+	padding: 1px;
+	/*grid-template-rows: 100% 100% 100%;*/
+	justify-content: center;
+	grid-template-areas:
+		'first second third fourth fifth';
+	}
 
+.pr1 { grid-area: first; }
+.pr2 { grid-area: second; }
+.pr3 { grid-area: third; }
+.pr4 { grid-area: fourth; }
+.pr5 { grid-area: fifth; }
+
+.grid-container2 img{
+	width: 100%;
+}
