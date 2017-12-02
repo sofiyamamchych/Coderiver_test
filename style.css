@@ -179,5 +179,35 @@ width: 40%;
   	color: rgb(146, 151, 163);
   	line-height: 1.923;
 }
+.radio-styled input {
+    position: absolute;
+    opacity: 0;
+}
 
+.checkmark {
+    /*position: absolute;
+    top: 0;
+    left: 0;*/
+    display: inline-block;
+    height: 11px;
+    width: 11px;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px #989ca8 solid; 
+}
 
+.radio-styled input:checked ~ .checkmark {
+    background-color: #333743;
+    border: #989ca8;
+}
+
+.checkmark:after {
+    content: url(img/check.png);
+    position: absolute;
+    display: none;
+}
+
+.radio-styled input:checked ~ .checkmark:after {
+    display: inline-block;
+    margin: -8px 0 0 3px;
+}
