@@ -78,14 +78,14 @@ header{
 		'title title'
 		'bigbag bigbag'
 		'bag1 bag2'
-		'texts texts';
+		'texts texts' ;
 	}
 
 .grid-container > div {
 	/*background-color: rgba(255, 255, 255);*/
 	text-align: center;
 	/*padding: 10px 10px;*/
-	font-size: 20px;
+	/*font-size: 20px;*/
 }
 
 .item1 { grid-area: title; }
@@ -93,7 +93,6 @@ header{
 .item3 { grid-area: bag1; }
 .item4 { grid-area: bag2; }
 .item5 { grid-area: texts; }
-
 
 .item1 {
 	padding: 10px;
@@ -168,7 +167,7 @@ width: 40%;
 	width: 144px;
 }
 
-.item5 ul{
+.item5 form ul{
 	padding-left: 0;
 }
 
@@ -178,6 +177,7 @@ width: 40%;
   	font-family: "Georgia";
   	color: rgb(146, 151, 163);
   	line-height: 1.923;
+  	
 }
 .radio-styled input {
     position: absolute;
@@ -194,6 +194,7 @@ width: 40%;
     background-color: white;
     border-radius: 50%;
     border: 1px #989ca8 solid; 
+    
 }
 
 .radio-styled input:checked ~ .checkmark {
@@ -235,3 +236,24 @@ width: 40%;
 	background-color: #afa394;
 	padding: 12px 0 5px 0;
 }
+
+.sm-like {
+	font-size: 11px;
+	font-family: "Georgia";
+	color: rgb(146, 151, 163);
+	text-align: center;
+	margin-bottom: -12px;
+
+}
+
+.biglike{
+	text-transform: uppercase;
+	font-size: 16px;
+	font-family: 'PT Sans';
+	color: rgb(51, 55, 67);
+	font-weight: bold;
+	text-align: center;
+ 
+}
+
+
