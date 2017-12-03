@@ -338,3 +338,84 @@ width: 40%;
 .grid-container2 img{
 	width: 100%;
 }
+
+.grid-container2 > div {
+	padding: 2px;
+}
+
+.product-description{
+	display: none;
+	/*text-transform: uppercase;
+	font-size: 12px;
+  	font-family: 'PT Sans';
+  	color: rgb(51, 55, 67);
+  	font-weight: bold;
+  	text-align: center;*/
+  	padding-bottom: 18px;
+  	padding-left: 8px;
+}
+
+.product-description a{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 12px;
+  	font-family: 'PT Sans';
+  	color: rgb(51, 55, 67);
+  	font-weight: bold;
+  	text-align: center;
+  /*	padding-bottom: 18px;
+  	padding-left: 8px;*/
+}
+
+.price-sm{
+	display: none;
+	float: right;
+	font-size: 13px;
+    font-family: "Georgia";
+    color: rgb(146, 151, 163);
+}
+
+.sm-category {
+	display: none;
+  	font-size: 11px;
+  	font-family: "Georgia";
+  	color: rgb(146, 151, 163);
+  	margin: -20px 0 0 8px;
+  
+}
+
+
+
+
+
+
+
+@media (min-width: 600px){
+	.product-description{
+		display: inline-block;
+	}
+
+
+}
+
+
+
+
+@media (min-width: 710px){
+
+	.price-sm{
+		display: block;
+	}
+ 	
+ 	.price-sm:after{
+		content: '';
+		display: block;
+		clear:both;
+	}
+
+	.sm-category {
+		display: block;
+  	}
+
+}
+
