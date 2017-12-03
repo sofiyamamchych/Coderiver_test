@@ -29,6 +29,10 @@ header{
 	margin-top: 12px;
 }
 
+.full-menu{
+	display: none;
+}
+
 .dropdown label{
 	display: inline-block;
 	width: 39px;
@@ -395,6 +399,10 @@ width: 40%;
 		display: inline-block;
 	}
 
+	.item2 img{
+		width: 60%;
+	}
+
 
 }
 
@@ -402,6 +410,23 @@ width: 40%;
 
 
 @media (min-width: 710px){
+	
+	.dropdown{
+		display: none;
+	}
+	.full-menu{
+		display: block;
+	}
+
+	nav a{
+		padding-right: 10px;
+	}
+
+	nav a:hover{
+		background-color: white;
+		color: #333743;
+	}
+
 
 	.price-sm{
 		display: block;
@@ -416,6 +441,6 @@ width: 40%;
 	.sm-category {
 		display: block;
   	}
-
+	
 }
 
