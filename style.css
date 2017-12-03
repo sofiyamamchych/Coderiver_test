@@ -8,6 +8,10 @@ body{
 	margin: 0 auto;
 }
 
+.wrap{
+	max-width: 960px;
+}
+
 header div{
 	margin: 8px;
 }
@@ -448,9 +452,9 @@ width: 40%;
 
 @media (min-width: 800px){
 
-	/*body{
-		max-width: 960px;
-	}*/
+	.wrap{
+		margin-left: calc(50% - 400px);
+	}
 
 	.grid-container {
 	
@@ -473,7 +477,13 @@ width: 40%;
 		width: 100%;
 	}
 	.item2 img{
-		/*height: 100%;*/
 		width: 100%;
+	}
+}
+
+@media (min-width: 960px){
+
+	.wrap{
+		margin-left: calc(50% - 480px);
 	}
 }
