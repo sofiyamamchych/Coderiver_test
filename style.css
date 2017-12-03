@@ -454,6 +454,7 @@ width: 40%;
 
 	.wrap{
 		margin-left: calc(50% - 400px);
+		margin-right: calc(50% - 400px);
 	}
 
 	.grid-container {
@@ -479,11 +480,30 @@ width: 40%;
 	.item2 img{
 		width: 100%;
 	}
+
+	.headline{
+		padding:  0 0 0 29px;
+	}
 }
 
 @media (min-width: 960px){
 
 	.wrap{
 		margin-left: calc(50% - 480px);
+
 	}
+
+	.item5{
+		padding: 0 0 0 60px;
+	}
+
+	nav a {
+   		padding-right: 36px;
+   	}
+
+   	.full-menu{
+   		margin-left: 36px;
+   	}		
+
+	
 }
