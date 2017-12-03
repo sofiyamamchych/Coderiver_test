@@ -508,6 +508,10 @@ width: 40%;
 	.item5 h4 {
 		padding-bottom: 2px;
 	}
+
+	.maylike{
+		margin-top: 70px;
+	}
 }
 
 @media (min-width: 960px){
@@ -541,6 +545,8 @@ width: 40%;
 	.headline{
 		padding: 0;
 	} 
+
+
 
 
 
