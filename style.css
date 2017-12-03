@@ -496,7 +496,18 @@ width: 40%;
 		padding:  0 0 0 29px;
 	}
 
+	.item5{
+		padding: 0;
+		margin-left: 26px;
+		margin-right: 26px;
+	}
+	.buy{
+		margin-top: -11px;
 
+	}
+	.item5 h4 {
+		padding-bottom: 2px;
+	}
 }
 
 @media (min-width: 960px){
@@ -518,6 +529,13 @@ width: 40%;
    	.full-menu{
    		margin-left: 36px;
    	}		
+	
+	.item5 h4 {
+	    padding-bottom: 12px;
+	}
+
+
+
 
 	
 }
