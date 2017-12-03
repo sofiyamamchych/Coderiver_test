@@ -305,7 +305,17 @@ width: 40%;
 	background-color: #afa394;
 	padding: 12px 0 5px 0;
 	border-radius: 2px;
+	margin-bottom: 5px;
 }
+
+.item5{
+	display: flex;
+	flex-direction: column;
+}
+.buy{
+	margin-top: auto;
+}
+
 
 .sm-like {
 	font-size: 11px;
@@ -398,7 +408,6 @@ width: 40%;
 
 
 
-
 @media (min-width: 600px){
 	.product-description{
 		display: inline-block;
@@ -446,6 +455,8 @@ width: 40%;
 	.sm-category {
 		display: block;
   	}
+
+
 	
 }
 
@@ -484,6 +495,8 @@ width: 40%;
 	.headline{
 		padding:  0 0 0 29px;
 	}
+
+
 }
 
 @media (min-width: 960px){
@@ -495,6 +508,7 @@ width: 40%;
 
 	.item5{
 		padding: 0 0 0 60px;
+
 	}
 
 	nav a {
